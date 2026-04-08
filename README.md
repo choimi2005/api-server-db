@@ -16,9 +16,29 @@
 - 서버 자동 실행 : nodemon 설치 : npm i nodemon
   package.json에 "type": "module"로 변경
 
-### mysql 라이브러리 설치
+
+## db 연결
+### mysql2 라이브러리 설치
 #### 설치
  - npm install mysql2
+
+
+### MySQL DBMS 연결 설정
+{
+    host: 'localhost',
+    user: 'jsuser',
+    password: 'js1234',
+    database: 'jsdb'
+}
+
+### rest api
+
+- 목록조회: app.get();
+- 상품등록: app.post();
+- 상품 수정 app.put();
+- 상품 삭제 app.delete();
+
+
 
 ### mysql 설치 및 워크벤치 설정
 - mysql 8.4 
